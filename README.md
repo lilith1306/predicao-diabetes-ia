@@ -1,38 +1,22 @@
 # Predição de Diabetes Tipo 2 com Inteligência Artificial
 
-Projeto acadêmico desenvolvido com o objetivo de comparar modelos de Inteligência Artificial na predição de Diabetes Tipo 2, utilizando técnicas de Machine Learning aplicadas ao conjunto de dados Pima Indians Diabetes Database.
+Projeto acadêmico desenvolvido com o objetivo de comparar duas abordagens de Inteligência Artificial para a predição de Diabetes Tipo 2.
 
-## Objetivo
+## Modelos implementados
 
-Desenvolver e avaliar dois modelos preditivos para apoio à identificação de pacientes com risco de Diabetes Tipo 2, analisando o desempenho e as características de cada abordagem.
-
-## Modelos utilizados
-
-* Árvore de Decisão (Decision Tree);
-* Rede Neural Artificial (Artificial Neural Network - ANN).
+* **Árvore de Decisão (Decision Tree):** modelo baseado em regras de decisão para classificação dos dados.
+* **Rede Neural Artificial (ANN):** modelo capaz de identificar padrões complexos por meio de múltiplas camadas de processamento.
 
 ## Tecnologias utilizadas
 
-* Python;
-* Jupyter Notebook;
-* Pandas;
-* NumPy;
-* Scikit-learn;
-* TensorFlow/Keras.
+* Python
+* Jupyter Notebook
+* Scikit-learn
+* TensorFlow/Keras
 
-## Estrutura do projeto
+## Estrutura do repositório
 
-```text
-projeto-ias/
-├── README.md
-├── apresentacao/
-├── relatorio/
-├── dados/
-├── arvore-decisao/
-├── rede-neural/
-└── resultados/
-```
+* `arvore-decisao/`: implementação do modelo de Árvore de Decisão;
+* `rede-neural/`: implementação da Rede Neural Artificial.
 
-## Base de dados
 
-O estudo utilizou o **Pima Indians Diabetes Database**, disponível no UCI Machine Learning Repository, contendo informações clínicas utilizadas para a predição do Diabetes Tipo 2.
